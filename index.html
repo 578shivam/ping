@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+    }
+    
+  
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 32px;
+    }
+    .text-1 h1{
+      font-size: 3rem;
+      margin-top: 20px;
+      color: hsl(0, 0%, 59%);
+    }
+    span{
+      color: black;
+    }
+    .text-1 p{
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    label input{
+      width: 400px;
+      height: 50px;
+      border-radius: 20px;
+      padding: 10px;
+      margin-top: 20px;
+      border: solid hsl(0deg 0% 59% / 42%);
+    }
+    .btn{
+      width: 200px;
+      height: 50px;
+      border-radius: 20px;
+      background-color: hsl(223, 87%, 63%);
+      color: white;
+      border: none;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    .soical{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .soical i{
+      margin: 0.4rem;
+    font-size: 20px;
+    margin-top: 20px;
+    color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    }
+    i:hover{
+      background-color: hsl(223, 87%, 63%);
+      color: white;
+      transition: 0.4s ease;
+    }
+    .image img{
+      margin-top: 6rem;
+    }
+    .company{
+      text-align: center;
+      margin-top: 20px;
+      color: hsl(0, 0%, 59%);
+    }
+    @media (width < 600px) {
+      .image img{
+        width: 375px;
+      }
+      .text-1 h1{
+        font-size: 2rem;
+      }
+      .text-1 p{
+        font-size: 15px;
+      }
+      label input{
+        width: 350px;
+      }
+      .btn{
+        margin-top: 20px;
+        width: 350px;
+        height: 50px;
+      }
+    }
+    
+    
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="text-1">
+    <img src="images/logo.svg" alt="">
+    <h1>We are launching <span>soon!</span></h1>
+    <p>Subscribe and get notified</p>
+    <label>
+      <input type="text" name="" id="" placeholder="Your email address">
+      <button class="btn">Notify Me</button>
+    </label>
+  </div>
+  <div class="image">
+    <img src="images/illustration-dashboard.png" alt="">
+  </div>
+</div>
+<div class="soical">
+  <i class="fa-brands fa-facebook-f"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+</div>
+<p class="company">
+  &copy; Copyright Ping. All rights reserved.</p>
+ 
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">shivam kumar</a>.
+    </p>
+  </footer>
+</body>
+</html>
